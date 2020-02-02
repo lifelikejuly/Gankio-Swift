@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -15,6 +15,16 @@
 		0A96057023DEB201009FC524 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A96056E23DEB201009FC524 /* LaunchScreen.storyboard */; };
 		0A96057B23DEB201009FC524 /* gankioTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A96057A23DEB201009FC524 /* gankioTests.swift */; };
 		0A96058623DEB201009FC524 /* gankioUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A96058523DEB201009FC524 /* gankioUITests.swift */; };
+		0A96059423DFE183009FC524 /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A96059323DFE183009FC524 /* ViewController2.swift */; };
+		0A96059623E5545F009FC524 /* FuncButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A96059523E5545F009FC524 /* FuncButton.swift */; };
+		0A96059823E591EE009FC524 /* Board.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A96059723E591EE009FC524 /* Board.swift */; };
+		0A9605B123E5988D009FC524 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 0A9605B023E5988D009FC524 /* SnapKit */; };
+		0A9605B323E5A897009FC524 /* Screen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A9605B223E5A897009FC524 /* Screen.swift */; };
+		0A9605B623E5B4B4009FC524 /* CalculatorEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A9605B523E5B4B4009FC524 /* CalculatorEngine.swift */; };
+		0A9605B923E6AF93009FC524 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 0A9605B823E6AF93009FC524 /* Alamofire */; };
+		0A9605BC23E6C52F009FC524 /* KingfisherSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = 0A9605BB23E6C52F009FC524 /* KingfisherSwiftUI */; };
+		0A9605BF23E6CE9F009FC524 /* SwiftyJSON in Frameworks */ = {isa = PBXBuildFile; productRef = 0A9605BE23E6CE9F009FC524 /* SwiftyJSON */; };
+		0A9605C123E6D20C009FC524 /* girlModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A9605C023E6D20C009FC524 /* girlModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +44,19 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		0A9605AE23E595C4009FC524 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		0A96056023DEB1F7009FC524 /* gankio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = gankio.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A96056323DEB1F7009FC524 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +72,12 @@
 		0A96058123DEB201009FC524 /* gankioUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = gankioUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A96058523DEB201009FC524 /* gankioUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gankioUITests.swift; sourceTree = "<group>"; };
 		0A96058723DEB201009FC524 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0A96059323DFE183009FC524 /* ViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
+		0A96059523E5545F009FC524 /* FuncButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FuncButton.swift; sourceTree = "<group>"; };
+		0A96059723E591EE009FC524 /* Board.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Board.swift; sourceTree = "<group>"; };
+		0A9605B223E5A897009FC524 /* Screen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Screen.swift; sourceTree = "<group>"; };
+		0A9605B523E5B4B4009FC524 /* CalculatorEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorEngine.swift; sourceTree = "<group>"; };
+		0A9605C023E6D20C009FC524 /* girlModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = girlModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +85,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0A9605BC23E6C52F009FC524 /* KingfisherSwiftUI in Frameworks */,
+				0A9605B123E5988D009FC524 /* SnapKit in Frameworks */,
+				0A9605BF23E6CE9F009FC524 /* SwiftyJSON in Frameworks */,
+				0A9605B923E6AF93009FC524 /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +116,7 @@
 				0A96057923DEB201009FC524 /* gankioTests */,
 				0A96058423DEB201009FC524 /* gankioUITests */,
 				0A96056123DEB1F7009FC524 /* Products */,
+				0A9605AB23E595C4009FC524 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,6 +133,7 @@
 		0A96056223DEB1F7009FC524 /* gankio */ = {
 			isa = PBXGroup;
 			children = (
+				0A9605B423E5B45B009FC524 /* cal */,
 				0A96056323DEB1F7009FC524 /* AppDelegate.swift */,
 				0A96056523DEB1F7009FC524 /* SceneDelegate.swift */,
 				0A96056723DEB1F7009FC524 /* ViewController.swift */,
@@ -106,6 +141,7 @@
 				0A96056C23DEB201009FC524 /* Assets.xcassets */,
 				0A96056E23DEB201009FC524 /* LaunchScreen.storyboard */,
 				0A96057123DEB201009FC524 /* Info.plist */,
+				0A9605C023E6D20C009FC524 /* girlModel.swift */,
 			);
 			path = gankio;
 			sourceTree = "<group>";
@@ -128,6 +164,25 @@
 			path = gankioUITests;
 			sourceTree = "<group>";
 		};
+		0A9605AB23E595C4009FC524 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0A9605B423E5B45B009FC524 /* cal */ = {
+			isa = PBXGroup;
+			children = (
+				0A9605B223E5A897009FC524 /* Screen.swift */,
+				0A96059723E591EE009FC524 /* Board.swift */,
+				0A96059523E5545F009FC524 /* FuncButton.swift */,
+				0A96059323DFE183009FC524 /* ViewController2.swift */,
+				0A9605B523E5B4B4009FC524 /* CalculatorEngine.swift */,
+			);
+			path = cal;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -138,12 +193,19 @@
 				0A96055C23DEB1F7009FC524 /* Sources */,
 				0A96055D23DEB1F7009FC524 /* Frameworks */,
 				0A96055E23DEB1F7009FC524 /* Resources */,
+				0A9605AE23E595C4009FC524 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = gankio;
+			packageProductDependencies = (
+				0A9605B023E5988D009FC524 /* SnapKit */,
+				0A9605B823E6AF93009FC524 /* Alamofire */,
+				0A9605BB23E6C52F009FC524 /* KingfisherSwiftUI */,
+				0A9605BE23E6CE9F009FC524 /* SwiftyJSON */,
+			);
 			productName = gankio;
 			productReference = 0A96056023DEB1F7009FC524 /* gankio.app */;
 			productType = "com.apple.product-type.application";
@@ -216,6 +278,12 @@
 				Base,
 			);
 			mainGroup = 0A96055723DEB1F7009FC524;
+			packageReferences = (
+				0A9605AF23E5988D009FC524 /* XCRemoteSwiftPackageReference "SnapKit" */,
+				0A9605B723E6AF93009FC524 /* XCRemoteSwiftPackageReference "Alamofire" */,
+				0A9605BA23E6C52F009FC524 /* XCRemoteSwiftPackageReference "Kingfisher" */,
+				0A9605BD23E6CE9F009FC524 /* XCRemoteSwiftPackageReference "SwiftyJSON" */,
+			);
 			productRefGroup = 0A96056123DEB1F7009FC524 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -259,7 +327,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0A9605B323E5A897009FC524 /* Screen.swift in Sources */,
+				0A9605B623E5B4B4009FC524 /* CalculatorEngine.swift in Sources */,
+				0A96059623E5545F009FC524 /* FuncButton.swift in Sources */,
 				0A96056823DEB1F7009FC524 /* ViewController.swift in Sources */,
+				0A9605C123E6D20C009FC524 /* girlModel.swift in Sources */,
+				0A96059823E591EE009FC524 /* Board.swift in Sources */,
+				0A96059423DFE183009FC524 /* ViewController2.swift in Sources */,
 				0A96056423DEB1F7009FC524 /* AppDelegate.swift in Sources */,
 				0A96056623DEB1F7009FC524 /* SceneDelegate.swift in Sources */,
 			);
@@ -584,6 +658,64 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		0A9605AF23E5988D009FC524 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
+			requirement = {
+				branch = develop;
+				kind = branch;
+			};
+		};
+		0A9605B723E6AF93009FC524 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+		0A9605BA23E6C52F009FC524 /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+		0A9605BD23E6CE9F009FC524 /* XCRemoteSwiftPackageReference "SwiftyJSON" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SwiftyJSON/SwiftyJSON.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		0A9605B023E5988D009FC524 /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0A9605AF23E5988D009FC524 /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+		0A9605B823E6AF93009FC524 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0A9605B723E6AF93009FC524 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+		0A9605BB23E6C52F009FC524 /* KingfisherSwiftUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0A9605BA23E6C52F009FC524 /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = KingfisherSwiftUI;
+		};
+		0A9605BE23E6CE9F009FC524 /* SwiftyJSON */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0A9605BD23E6CE9F009FC524 /* XCRemoteSwiftPackageReference "SwiftyJSON" */;
+			productName = SwiftyJSON;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 0A96055823DEB1F7009FC524 /* Project object */;
 }
